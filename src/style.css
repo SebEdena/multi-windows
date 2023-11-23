@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #252525;
+  color: aliceblue;
+  font-family: 'Lucida Sans';
+}
+
+video {
+  pointer-events: none;
+  object-fit: cover;
+}
+
+.full-size {
+  position: absolute;
+  inset: 0;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
